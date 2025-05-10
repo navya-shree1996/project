@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+        header, nav, footer {
+            background: #ffffff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0645ad;
+        }
+        nav input[type="text"] {
+            padding: 5px;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .categories {
+            margin-top: 20px;
+        }
+        .categories ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wikipedia Home Page</h1>
+    </header>
+
+    <nav>
+         <span class="menu-icon">&#9776; </span><!-- This is the "☰" menu symbol --> 
+        <a href="#">Home</a>
+        <a href="#">Random Article</a>
+        <a href="#">Contact</a>
+        <input type="text" placeholder="Search Wikipedia">
+    </nav>
+
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>This is a simple home page  of a Wikipedia </p>
+        </section>
+
+        <section class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li>Science</li>
+                <li>History</li>
+                <li>Technology</li>
+                <li>Culture</li>
+                <li>Geography</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wikipedia Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
